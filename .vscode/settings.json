@@ -4,5 +4,7 @@
     "azureFunctions.projectLanguage": "JavaScript",
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "npm prune (functions)"
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "appService.defaultWebAppToDeploy": "/subscriptions/bfb5465d-d3cd-4620-ab59-aec36ba9af9f/AppServices/subscriptions/bfb5465d-d3cd-4620-ab59-aec36ba9af9f/resourceGroups/Issho-Test-App_group/providers/Microsoft.Web/sites/IsshoWebApp",
+    "appService.deploySubpath": "."
 }
